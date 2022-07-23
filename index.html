@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>서뉴의 공방</title>
+
+    <!-- aos css -->
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!--파비콘-->
+    <link href="images/pavicon.png" rel="icon" type="images/png" sizes="32x32">
+
+    <!-- 슬라이드 css -->
+    <link href="css/swiper.css" rel="stylesheet" type="text/css"><!-- 수정X -->
+    <link href="css/slidebanner_index.css" rel="stylesheet" type="text/css"><!--디자인에 맞게 수정-->
+
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="header">
+        <div class="header_inner">
+            <h1><a href="index.html">서뉴의 공방</a></h1>
+            <img src="images/main_bg.png" alt="배경밑줄" class="bg">
+            <a href="index.html"><img src="images/main_logo.png" alt="메인로고" class="logo"></a>
+
+            <ul class="lnb">
+                <li><a href="#none">서뉴<div class="solid"></div></a></li>
+
+                <li><a href="#none">목호지<div class="solid"></div></a></li>
+
+                <li><a href="#none">잡담타임<div class="solid"></div></a></li>
+            </ul>
+        </div>
+
+        <!-- 슬라이드 구문 -->
+        <div class="swiper-container slide">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><a href="#none"><img src="images/main_banner1.jpg" alt="배너1"></a></div>
+                <div class="swiper-slide"><a href="#none"><img src="images/main_banner2.jpg" alt="배너2"></a></div>
+                <div class="swiper-slide"><a href="#none"><img src="images/main_banner3.jpg" alt="배너3"></a></div>
+            </div>
+            <!-- 화살표 버튼 -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <!-- 블릿 버튼 -->
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="content1">
+            <img src="images/con1.png" alt="con1" class="con1">
+
+            <ul>
+                <li>
+                    <div class="box1">
+                        <img src="images/main_img1.png" alt="">
+                        <div class="more1"><a href="#"><span>염탐하기</span></a></div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="box1">
+                        <img src="images/main_img2.png" alt="">
+                        <div class="more1"><a href="#"><span>염탐하기</span></a></div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="box1">
+                        <img src="images/main_img3.png" alt="">
+                        <div class="more1"><a href="#"><span>염탐하기</span></a></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="content2">
+            <h1>저희 모꼬지를 소개할개오.</h1>
+            <img src="images/main_mockhoji.png" alt="모꼬지사진">
+
+            <a href="#none"><img src="images/icon1.png" alt="아이콘"></a>
+            <a href="#none"><img src="images/icon2.png" alt="아이콘"></a>
+            <a href="#none"><img src="images/icon3.png" alt="아이콘"></a>
+        </div>
+
+        <div class="content3">
+            <img src="images/main_bg2.png" alt="글배경">
+            <h1>뚱땅뚱땅 서뉴 잡담</h1>
+
+            <div class="box01" data-aos="fade-right">
+                <img src="images/baby1.png" alt="허니">
+            </div>
+
+            <div class="box2" data-aos="fade-left">
+                <img src="images/text1.png" alt="텍스트">
+            </div>
+            <div class="text" data-aos="fade-left">
+                <ul>
+                    <li>안냐세여.<br>
+                        서뉴라고함미다.<br>
+                        라고하지만 두아..<br>
+                        이기도한 암튼 그래여.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="box3" data-aos="fade-right">
+                <img src="images/text2.png" alt="텍스트">
+            </div>
+            <div class="box4" data-aos="fade-left">
+                <img src="images/baby2.png" alt="허니">
+            </div>
+
+            <div class="text2" data-aos="fade-right">
+                <ul>
+                    <li>사실 제(두아)<br>
+                        자기만족으로 한번<br>
+                        만드러바써여.<br>
+                        만드는 사람 맴이애오.
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="duua">
+            <img src="images/duua.png" alt="두아">
+            <a href=><img src="images/duua_icon.png" alt="아이콘"></a>
+        </div>
+
+        <div id="footer">
+            <div class="footer"><a href="#none">
+                    <img src="images/main_logo.png" alt="">
+                    <h1>서뉴의 공방</h1>
+                    <h4>designed by. d_duua</h4>
+                </a>
+            </div>
+        </div>
+
+        <div id="top_icon">
+            <!--탑 아이콘-->
+            <a href="#" class="top"><img src="images/main_topicon.png" alt="탑아이콘"></a>
+        </div>
+
+        <!-- 슬라이드 js -->
+        <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script><!-- 제이쿼리 라이브러리,수정X -->
+        <script src="script/swiper.min.js"></script><!-- 수정X -->
+        <script src="script/slidebanner.js"></script>
+        <!--디자인에 맞게 수정-->
+
+        <!-- js -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script><!-- aos 라이브러리 -->
+        <script src="script/aos.js"></script><!-- aos 소스 -->
+
+        <!-- top아이콘 js -->
+        <script src="script/icon.js"></script>
+</body>
+</html>
